@@ -1,3 +1,7 @@
+
+// Descrição: Este programa lê coordenadas (X, Y) de uma quantidade indeterminada de pontos no sistema cartesiano
+// e imprime a qual quadrante cada ponto pertence. O programa encerra quando pelo menos uma das coordenadas for 0.
+
 import java.util.Scanner;
 
 public class Quadrante {
