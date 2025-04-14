@@ -1,3 +1,5 @@
+![Banner](./banner.png)
+
 <h1 align="center">🧭 Quadrante - Exercício em Java</h1>
 
 <p align="center">
@@ -22,3 +24,41 @@ O programa encerra **silenciosamente** (sem mensagens) quando pelo menos uma das
 ## ▶️ Exemplo de uso
 
 ### **Entrada**
+
+2 2
+3 -2
+-8 -1
+-7 1
+0 2
+
+### **Saída**
+
+Primeiro Quadrante
+Quarto Quadrante
+Terceiro Quadrante
+Segundo Quadrante
+
+---
+
+## 🧠 Conceitos aplicados
+
+- Estrutura de repetição `while`
+- Leitura de dados com `Scanner`
+- Condicionais `if / else`
+- Coordenadas cartesianas
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Java
+- IntelliJ IDEA (ou qualquer editor/IDE de sua preferência)
+
+---
+
+## 🚀 Autor
+
+Feito com carinho por **Lucas Vinicius**
+Repositório criado como parte da jornada de estudos em Java.
+
+---
