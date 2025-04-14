@@ -1,12 +1,10 @@
-// Este programa le as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano
 import java.util.Scanner;
 
-public class Main {
+public class Quadrante {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite as coordenadas (X,Y) de um ponto no sistema cartesiano: ");
         int x = sc.nextInt();
         int y = sc.nextInt();
 
@@ -20,13 +18,10 @@ public class Main {
             } else {
                 System.out.println("Quarto Quadrante");
             }
-            
-            System.out.println("Digite as coordenadas (X,Y) de um ponto no sistema cartesiano: ");
-            x = sc.nextInt();             
+
+            x = sc.nextInt();
             y = sc.nextInt();
-           
         }
-            
 
         sc.close();
     }
