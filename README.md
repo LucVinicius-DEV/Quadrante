@@ -1,64 +1,57 @@
-![Banner](./banner.png)
+![Banner](https://github.com/LucVinicius-DEV/Quadrante/blob/main/banner.png)
 
-<h1 align="center">🧭 Quadrante - Exercício em Java</h1>
+# 🧭 Identificação de Quadrantes no Plano Cartesiano
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED9B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Exercício-Estrutura%20de%20Repetição-blueviolet?style=for-the-badge" />
-</p>
-
-## ✍️ Descrição
-
-Este programa em Java lê coordenadas `(X, Y)` de uma quantidade indeterminada de pontos no plano cartesiano.  
-Para cada ponto informado, ele imprime em qual **quadrante** o ponto está localizado:
-
-- **Primeiro Quadrante** → X > 0 e Y > 0  
-- **Segundo Quadrante** → X < 0 e Y > 0  
-- **Terceiro Quadrante** → X < 0 e Y < 0  
-- **Quarto Quadrante** → X > 0 e Y < 0  
-
-O programa encerra **silenciosamente** (sem mensagens) quando pelo menos uma das coordenadas for igual a **zero**.
+Repositório com um exercício simples em Java que identifica em qual quadrante do plano cartesiano se encontra um ponto fornecido pelo usuário, com base em suas coordenadas X e Y.
 
 ---
 
-## ▶️ Exemplo de uso
+## 📚 Projeto disponível
 
-### **Entrada**
-
-2 2
-3 -2
--8 -1
--7 1
-0 2
-
-### **Saída**
-
-Primeiro Quadrante
-Quarto Quadrante
-Terceiro Quadrante
-Segundo Quadrante
+- [QUADRANTE](./src) — Programa que lê coordenadas e determina a posição do ponto em um dos quatro quadrantes, ou se está em um dos eixos.
 
 ---
 
-## 🧠 Conceitos aplicados
-
-- Estrutura de repetição `while`
-- Leitura de dados com `Scanner`
-- Condicionais `if / else`
-- Coordenadas cartesianas
-
----
-
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Java
-- IntelliJ IDEA (ou qualquer editor/IDE de sua preferência)
+- IntelliJ IDEA
+- Git & GitHub
 
 ---
 
-## 🚀 Autor
+# 🔍 Sobre o Projeto
 
-Feito com carinho por **Lucas Vinicius**
-Repositório criado como parte da jornada de estudos em Java.
+Este exercício visa consolidar o uso de estruturas condicionais (`if/else`) e leitura de valores via terminal, aplicando lógica matemática básica no plano cartesiano.
+
+## ✨ Funcionalidades
+
+- Leitura contínua de coordenadas X e Y via terminal.
+- Identificação do quadrante correspondente:
+  - Primeiro Quadrante (X > 0 e Y > 0)
+  - Segundo Quadrante (X < 0 e Y > 0)
+  - Terceiro Quadrante (X < 0 e Y < 0)
+  - Quarto Quadrante (X > 0 e Y < 0)
+- Encerramento da execução caso uma das coordenadas seja zero.
 
 ---
+
+## ▶️ Como executar
+
+1. Clone o repositório ou abra em sua IDE Java.
+2. Acesse o diretório `/src` e abra o arquivo `Main.java`.
+3. Execute o programa e informe os valores de X e Y quando solicitado.
+4. Para encerrar, insira `0` em qualquer uma das coordenadas.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Lucas Vinícius com apoio da Luna, como parte do processo de aprendizado em lógica e estruturas condicionais em Java.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Vinícius-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/)  
+[![GitHub](https://img.shields.io/badge/GitHub-LucVinicius--DEV-black?style=flat&logo=github)](https://github.com/LucVinicius-DEV)
+
+---
+
+Se você gostou deste projeto, deixe um ⭐ para apoiar o repositório e acompanhe o progresso pelo [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) e pelo [GitHub](https://github.com/LucVinicius-DEV)!
